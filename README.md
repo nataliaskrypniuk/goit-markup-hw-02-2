@@ -1,2 +1,2 @@
-# goit-markup-hw-02-2
-ДЗ 2-2
+# goit-markup-hw-01
+Домашнее задание 1

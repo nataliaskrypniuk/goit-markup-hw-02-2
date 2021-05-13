@@ -1,0 +1,166 @@
+/*=================COMPONENTS===================*/
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+/*===================END COMPONENTS================*/
+
+/*==================HEADER======================*/
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-link-color {
+  color: var(--accent-color);
+}
+
+.navigation-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-item-link:hover,
+.navigation-item-link:focus {
+  color: var(--accent-color);
+}
+.contact-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-item-link:hover,
+.contact-item-link:focus {
+  color: var(--accent-color);
+}
+/*=======================END HEADER==============*/
+
+/*==================HERO SECTION STUDIO=============*/
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.modal-button {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.modal-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.modal-button:hover,
+.modal-button:focus {
+  cursor: pointer;
+}
+/*================END HERO SECTION STUDIO===========*/
+
+/*================INFORM BUTTON SECTION PORTFOLIO==============*/
+.modal-button-item {
+  border-radius: 4px;
+}
+.modal-button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62px;
+  letter-spacing: 0.03em;
+}
+.button {
+  background: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+/*============END INFORM BUTTON SECTION PORTFOLIO=========*/
+
+/*==================ADVENTAGE SECTION STUDIO==============*/
+.adventage-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.adventage-list-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*=============END ADVENTAGE SECTION STUDIO=============*/
+
+/*============ABOUT US SECTION STUDIO PORTFOLIO===========*/
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.about-img-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.about-img-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.team-list-img-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-list-img-description {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*============END ABOUT US SECTION STUDIO PORTFOLIO=======*/
+
+/*==================FOOTER STUDIO PORTFOLIO===============*/
+.address-list-item {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.address-link:hover,
+.address-link:focus {
+}
+/*================END FOOTER STUDIO PORTFOLIO==============*/
