@@ -6,6 +6,7 @@
   --secondary-font: "Raleway", sans-serif;
   --secondary-color: #757575;
   --help-color: #ffffff;
+  --accent-background-color: #2f303a;
 }
 .list {
   list-style: none;
@@ -31,6 +32,9 @@ body {
   color: var(--accent-color);
 }
 
+.header-link-color {
+  color: black;
+}
 .navigation-item-link {
   font-weight: 500;
   font-size: 14px;
@@ -52,6 +56,9 @@ body {
 .contact-item-link:focus {
   color: var(--accent-color);
 }
+.header-link-color-page {
+  color: var(--accent-color);
+}
 /*=======================END HEADER==============*/
 
 /*==================HERO SECTION STUDIO=============*/
@@ -62,8 +69,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--help-color);
 }
 
+.hero-section {
+  background: var(--accent-background-color);
+}
 .modal-button {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -152,15 +163,27 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+.about-us-section-team {
+  background: #f5f4fa;
+}
 /*============END ABOUT US SECTION STUDIO PORTFOLIO=======*/
 
 /*==================FOOTER STUDIO PORTFOLIO===============*/
+.footer {
+  background: var(--accent-background-color);
+}
+.footer-contact-color {
+  color: rgba(255, 255, 255, 0.6);
+}
 .address-list-item {
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+.footer-link-color {
+  color: var(--help-color);
 }
 .address-link:hover,
 .address-link:focus {
